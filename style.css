@@ -1,0 +1,293 @@
+* {
+    body {
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+.header {
+    display: flex;
+    padding: 2px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.navbar__s1 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s1 img {
+    background-color: aqua;
+    border-radius: 50%;
+    width: 50px;
+    position: absolute;
+}
+
+.navbar__s1 h2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    padding: 2px;
+
+}
+
+.navbar__s2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 7px;
+    left: 150px;
+
+}
+
+.navbar__s2__t {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2__t h3 {
+    padding: 10px;
+}
+
+.navbar__s3__left img {
+    width: 30px;
+}
+
+.navbar__s3__left {
+    position: relative;
+    right: 50px;
+}
+
+.navbar__s3__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__s3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 300px;
+    bottom: 10px;
+}
+
+.navbar__s3__t {
+    padding: 2px;
+    position: relative;
+    bottom: 2px;
+    right: 45px;
+
+
+}
+
+.navbar__s3__right button {
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 35px;
+    width: 80px;
+    position: relative;
+    bottom: 12px;
+    right: 15px;
+}
+
+.main__center {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main__center__one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__center__one__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.main__center__one__menu h3 {
+    position: relative;
+    right: 2px;
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    top: 50px;
+    border-radius: 20px;
+
+}
+
+.banner__text {
+    position: relative;
+    width: 400px;
+    left: 300px;
+    bottom: 350px;
+}
+
+.banner__text h1 {
+    font-size: 50px
+}
+
+.banner__text h3 {
+    font-size: 20px;
+}
+
+.banner__text__button {
+    position: relative;
+    bottom: 350px;
+    left: 330px;
+
+}
+
+.banner__text__button button {
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    height: 45px;
+    width: 250px;
+    font-size: large;
+    border: none;
+
+}
+
+.main__center__search {
+    border: solid black 1px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    position: relative;
+    left: 275px;
+    gap: 5px;
+
+
+}
+
+.main__center__search input {
+    border: none;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+
+}
+
+.main__center__search input:focus {
+    outline: none;
+}
+
+.tourist__place_pic img {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+}
+
+.tourist__place {
+    padding: 10px;
+    position: relative;
+}
+
+.tourist__place_pic {
+    display: flex;
+    flex-direction: row;
+
+}
+.tourist__place_pic h2{
+    position: relative;
+    right: 175px;
+    top: 165px;
+    align-items: center;
+    color: black;
+}
+.tourist__place__photo img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    object-fit: fill;
+    position: relative;
+
+}
+.tourist__place__desc{
+    width: 250px;
+}
+.tourist_head{
+display: flex;
+flex-direction: row;
+padding: 10px;
+align-items: center;
+justify-self: center;
+}
+.tourist__place__desc h3,p{
+position: relative;
+top: 250px;
+right: 250px;
+width: 250px;
+}
+
+.footer{
+    position: relative;
+    top: 200px;
+}
+
+.footer_one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_one h5 {
+    margin: 10px;
+}
+
+.footer {
+    padding: 10px;
+    margin-top: 20px;
+    background-color:lightpink;
+    width: 100%;
+    color: black;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+
+
+}
+
+.footer h5 {
+    margin: 20px;
+}
